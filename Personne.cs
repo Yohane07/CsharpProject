@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RembourseMoi
 {
-    class Personne
+   public class Personne
     {
         public int Id;
         public string Nom;
@@ -20,6 +20,18 @@ namespace RembourseMoi
             Depense = depense;
         }
 
+        public Personne(int id, string nom, string prenom, int depense)
+        {
+            Id = id;
+            Nom = nom;
+            Prenom = prenom;
+            Depense = depense;
+        }
+
+        public Personne(int depense)
+        { 
+            Depense = depense;
+        }
     }
 }
 

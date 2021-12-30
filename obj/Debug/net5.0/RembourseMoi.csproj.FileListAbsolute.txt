@@ -1,0 +1,5 @@
+C:\Users\merve\Desktop\B2\Dev\C#\ProjetC_Sharp\ProjetCsharp\obj\Debug\net5.0\RembourseMoi.csprojAssemblyReference.cache
+C:\Users\merve\Desktop\B2\Dev\C#\ProjetC_Sharp\ProjetCsharp\obj\Debug\net5.0\RembourseMoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\merve\Desktop\B2\Dev\C#\ProjetC_Sharp\ProjetCsharp\obj\Debug\net5.0\RembourseMoi.AssemblyInfoInputs.cache
+C:\Users\merve\Desktop\B2\Dev\C#\ProjetC_Sharp\ProjetCsharp\obj\Debug\net5.0\RembourseMoi.AssemblyInfo.cs
+C:\Users\merve\Desktop\B2\Dev\C#\ProjetC_Sharp\ProjetCsharp\obj\Debug\net5.0\RembourseMoi.csproj.CoreCompileInputs.cache
