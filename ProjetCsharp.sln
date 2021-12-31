@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RembourseMoi", "RembourseMoi.csproj", "{6381E96E-03C6-45AE-8188-5278F2BDB7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RembourseMoi.DAL", "..\RembourseMoi.DAL\RembourseMoi.DAL.csproj", "{DC3778DD-3BD4-4360-98E0-C3D7C2919F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RembourseMoi.DAL", "..\RembourseMoi.DAL\RembourseMoi.DAL.csproj", "{DC3778DD-3BD4-4360-98E0-C3D7C2919F23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{279B7FF1-11B8-4117-BBF0-E7DE95BE43D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RembourseMoi", "..\RembourseMoi\RembourseMoi.csproj", "{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RembourseMoi_DAL", "..\RembourseMoi_DAL\RembourseMoi_DAL.csproj", "{32F29980-B93F-4227-B6A9-B23EF74DB855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,21 @@ Global
 		{DC3778DD-3BD4-4360-98E0-C3D7C2919F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC3778DD-3BD4-4360-98E0-C3D7C2919F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC3778DD-3BD4-4360-98E0-C3D7C2919F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F29980-B93F-4227-B6A9-B23EF74DB855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F29980-B93F-4227-B6A9-B23EF74DB855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F29980-B93F-4227-B6A9-B23EF74DB855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F29980-B93F-4227-B6A9-B23EF74DB855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{893DB24A-3F58-43D7-A1FC-FC9F4B88FF0E} = {279B7FF1-11B8-4117-BBF0-E7DE95BE43D8}
+		{32F29980-B93F-4227-B6A9-B23EF74DB855} = {279B7FF1-11B8-4117-BBF0-E7DE95BE43D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0B3285B-5D12-4B1A-831E-ECE460A33962}
